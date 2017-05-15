@@ -1,0 +1,24 @@
+{
+  "name": "bdm",
+  "version": "1.0.0",
+  "description": "Becca Darling Music",
+  "main": "app.js",
+  "scripts": {
+    "test": "asdf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://devgr@github.com/devgr/bdm.git"
+  },
+  "author": "George Darling",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/devgr/bdm/issues"
+  },
+  "homepage": "https://github.com/devgr/bdm#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "vue": "^2.3.3",
+    "vue-router": "^2.5.3"
+  }
+}

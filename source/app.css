@@ -4,3 +4,30 @@
 .logo-font{
 	font-family: 'La Belle Aurore', sans-serif;
 }
+#app{
+	padding-left: 0;
+	padding-right: 0;
+}
+nav a{
+	color: black;
+}
+nav a:hover{
+	text-decoration: none;
+}
+nav h1, nav h2{
+	text-align: center;
+}
+nav h2{
+	padding-top: 13px;
+	font-size: 26px;
+}
+nav div.social-logo{
+	text-align: center;
+	padding-top: 9px;
+}
+nav hr{
+	margin: 0;
+	border-top: 1px solid black;
+	top: -26px;
+	position: relative;
+}

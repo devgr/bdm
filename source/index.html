@@ -1,24 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Becca Darling Music</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 	<script src="https://unpkg.com/vue"></script>
 	<script src="https://unpkg.com/vue-router@2.0.0/dist/vue-router.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=La+Belle+Aurore|Open+Sans+Condensed:300" rel="stylesheet">
 	<link href="app.css" rel="stylesheet">
+	<script src="https://use.fontawesome.com/e3833c799e.js"></script>
 </head>
 <body>
-	<div id="app">
+	<div id="app" class="container-fluid">
 		<nav>
-			<h2><router-link to="/bio">Bio</router-link><h2>
-			<h1><router-link to="/home" class="logo-font">Becca Darling</router-link></h1>
+			<div class="row justify-content-center">
+				<div class="col-1"></div>
+				<div class="col-1">
+					<h2><router-link to="/example">Music</router-link><h2>
+				</div>
+				<div class="col-1">
+					<h2><router-link to="/example">Photos</router-link><h2>
+				</div>
+				<div class="col-1">
+					<h2><router-link to="/bio">Bio</router-link><h2>
+				</div>
+				<div class="col-3">
+					<h1><router-link to="/home" class="logo-font">Becca Darling</router-link></h1>
+				</div>
+				<div class="col-1">
+					<h2><router-link to="/example">Events</router-link><h2>
+				</div>
+				<div class="col-1">
+					<h2><a href="https://www.gigsalad.com/becca_darling_music_nashville" target="_blank">Book Me</a><h2>
+				</div>
+				<div class="col-2">
+					<div class="social-logo">
+						<a href="https://www.facebook.com/beccadarlingmusic" target="_blank"><span class="fa fa-2x fa-facebook-official"></span></a>
+						<a href="https://www.instagram.com/beccadarlingmusic/" target="_blank"><span class="fa fa-2x fa-instagram"></span></a>
+						<a href="https://www.youtube.com/" target="_blank"><span class="fa fa-2x fa-youtube"></span></a>
+						<a href="https://twitter.com/darlingkeys" target="_blank"><span class="fa fa-2x fa-twitter"></span></a>
+					</div>
+				</div>
+			</div>
+			<hr />
 		</nav>
 		<router-view></router-view>
 	</div>
 	<script src="app.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
 </html>
